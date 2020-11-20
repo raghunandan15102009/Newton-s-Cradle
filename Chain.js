@@ -8,7 +8,7 @@ class Chain{
             pointB:{x:this.offsetX,y:this.offsetY}
         }
          this.chain = Constraint.create(options);
-         World.add(world,this.rope);
+         World.add(world,this.chain);
     }
 
     display(){
