@@ -13,8 +13,8 @@ class Chain{
 
     display(){
 
-        var pointA= this.rope.bodyA.position;
-        var pointB= this.rope.bodyB.position;   
+        var pointA= this.chain.bodyA.position;
+        var pointB= this.chain.bodyB.position;   
         push();
         line (pointA.x,pointA.y,pointB.x,pointB.y);
         pop();
